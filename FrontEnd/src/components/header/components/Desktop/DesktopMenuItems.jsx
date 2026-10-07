@@ -1,12 +1,8 @@
 import React, { Component } from "react";
 // import PropTypes from "prop-types";
 
-class DesktopMenuItems extends Component {
-  constructor(props) {
-    super(props);
-  }
+function DesktopMenuItems (props){
 
-  render() {
     
       return (
         <ul className="hidden  md:flex  w-4/5 items-center justify-around text-sm text-subTitle md:text-xl light:**:text-black light:**:hover:text-gray-400">
@@ -21,6 +17,4 @@ class DesktopMenuItems extends Component {
         </ul>
       )
   }
-}
-
 export default DesktopMenuItems;

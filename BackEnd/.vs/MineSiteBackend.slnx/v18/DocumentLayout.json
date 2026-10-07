@@ -1,12 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\dark_lord\\source\\repos\\MineSite_Backend\\MineSiteBackend\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\dark_lord\\Desktop\\MineSite\\BackEnd\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B3783F15-FC13-C9B7-C08F-A17F05428423}|MineSiteBackend.csproj|c:\\users\\dark_lord\\desktop\\minesite\\backend\\minesitebackend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B3783F15-FC13-C9B7-C08F-A17F05428423}|MineSiteBackend.csproj|solutionrelative:minesitebackend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MineSiteBackend",
+              "DocumentMoniker": "C:\\Users\\dark_lord\\Desktop\\MineSite\\BackEnd\\MineSiteBackend.csproj",
+              "RelativeDocumentMoniker": "MineSiteBackend.csproj",
+              "ToolTip": "C:\\Users\\dark_lord\\Desktop\\MineSite\\BackEnd\\MineSiteBackend.csproj",
+              "RelativeToolTip": "MineSiteBackend.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-07T17:54:16.101Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

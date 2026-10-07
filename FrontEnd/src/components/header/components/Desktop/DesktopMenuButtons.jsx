@@ -1,10 +1,6 @@
-import React, { Component } from "react";
-
-class DesktopMenuButtons extends Component {
-  constructor() {
-    super();
-  }
-  render() {
+function DesktopMenuButtons(props){
+  
+  
     return (
       <>
         <div className="nav-btns hidden   relative right-0 z-50 md:flex justify-center md:justify-end md:mr-3 items-center w-32 h-10 gap-3">
@@ -24,6 +20,6 @@ class DesktopMenuButtons extends Component {
       </>
     );
   }
-}
+
 
 export default DesktopMenuButtons;
