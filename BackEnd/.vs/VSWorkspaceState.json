@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Controllers"
   ],
-  "SelectedNode": "\\C:\\Users\\dark_lord\\source\\repos\\MineSite_Backend\\MineSiteBackend",
+  "SelectedNode": "\\Controllers\\WeatherForecastController.cs",
   "PreviewInSolutionExplorer": false
 }

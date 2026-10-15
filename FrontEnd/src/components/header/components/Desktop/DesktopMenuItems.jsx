@@ -6,12 +6,15 @@ function DesktopMenuItems (props){
     
       return (
         <ul className="hidden  md:flex  w-4/5 items-center justify-around text-sm text-subTitle md:text-xl light:**:text-black light:**:hover:text-gray-400">
-          {this.props.stateFromParrent.map( items => {
+          {props.stateFromParrent.map( items => {
             return (
+              <>
+              
               <li className="hover:text-white">
-                <a key={{items}} className="text-decoration-none p-0 m-0" href="#Selected_Works">{items}</a>
+                <a key={{items}} className="text-decoration-none p-0 m-0" href={`${items}`}>{items}</a>
                 
               </li>
+              </>
             )
           })}
         </ul>

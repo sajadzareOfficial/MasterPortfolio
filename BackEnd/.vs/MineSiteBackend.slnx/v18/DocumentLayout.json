@@ -3,8 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\dark_lord\\Desktop\\MineSite\\BackEnd\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B3783F15-FC13-C9B7-C08F-A17F05428423}|MineSiteBackend.csproj|c:\\users\\dark_lord\\desktop\\minesite\\backend\\minesitebackend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{B3783F15-FC13-C9B7-C08F-A17F05428423}|MineSiteBackend.csproj|solutionrelative:minesitebackend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{B3783F15-FC13-C9B7-C08F-A17F05428423}|MineSiteBackend.csproj|c:\\users\\dark_lord\\desktop\\minesite\\backend\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3783F15-FC13-C9B7-C08F-A17F05428423}|MineSiteBackend.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3783F15-FC13-C9B7-C08F-A17F05428423}|MineSiteBackend.csproj|c:\\users\\dark_lord\\desktop\\minesite\\backend\\middelware\\customemiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3783F15-FC13-C9B7-C08F-A17F05428423}|MineSiteBackend.csproj|solutionrelative:middelware\\customemiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3783F15-FC13-C9B7-C08F-A17F05428423}|MineSiteBackend.csproj|c:\\users\\dark_lord\\desktop\\minesite\\backend\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3783F15-FC13-C9B7-C08F-A17F05428423}|MineSiteBackend.csproj|solutionrelative:weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3783F15-FC13-C9B7-C08F-A17F05428423}|MineSiteBackend.csproj|c:\\users\\dark_lord\\desktop\\minesite\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3783F15-FC13-C9B7-C08F-A17F05428423}|MineSiteBackend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3783F15-FC13-C9B7-C08F-A17F05428423}|MineSiteBackend.csproj|c:\\users\\dark_lord\\desktop\\minesite\\backend\\models\\superuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3783F15-FC13-C9B7-C08F-A17F05428423}|MineSiteBackend.csproj|solutionrelative:models\\superuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3783F15-FC13-C9B7-C08F-A17F05428423}|MineSiteBackend.csproj|c:\\users\\dark_lord\\desktop\\minesite\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B3783F15-FC13-C9B7-C08F-A17F05428423}|MineSiteBackend.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3783F15-FC13-C9B7-C08F-A17F05428423}|MineSiteBackend.csproj|c:\\users\\dark_lord\\desktop\\minesite\\backend\\models\\siteitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3783F15-FC13-C9B7-C08F-A17F05428423}|MineSiteBackend.csproj|solutionrelative:models\\siteitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3783F15-FC13-C9B7-C08F-A17F05428423}|MineSiteBackend.csproj|c:\\users\\dark_lord\\desktop\\minesite\\backend\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3783F15-FC13-C9B7-C08F-A17F05428423}|MineSiteBackend.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,20 +42,104 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\dark_lord\\Desktop\\MineSite\\BackEnd\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\dark_lord\\Desktop\\MineSite\\BackEnd\\WeatherForecast.cs",
+              "RelativeToolTip": "WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-08T20:22:32.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\dark_lord\\Desktop\\MineSite\\BackEnd\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\dark_lord\\Desktop\\MineSite\\BackEnd\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-08T20:22:09.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SiteItems.cs",
+              "DocumentMoniker": "C:\\Users\\dark_lord\\Desktop\\MineSite\\BackEnd\\models\\SiteItems.cs",
+              "RelativeDocumentMoniker": "models\\SiteItems.cs",
+              "ToolTip": "C:\\Users\\dark_lord\\Desktop\\MineSite\\BackEnd\\models\\SiteItems.cs",
+              "RelativeToolTip": "models\\SiteItems.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-08T20:22:07.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomeMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\dark_lord\\Desktop\\MineSite\\BackEnd\\MiddelWare\\CustomeMiddleware.cs",
+              "RelativeDocumentMoniker": "MiddelWare\\CustomeMiddleware.cs",
+              "ToolTip": "C:\\Users\\dark_lord\\Desktop\\MineSite\\BackEnd\\MiddelWare\\CustomeMiddleware.cs",
+              "RelativeToolTip": "MiddelWare\\CustomeMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-08T17:38:59.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dark_lord\\Desktop\\MineSite\\BackEnd\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\dark_lord\\Desktop\\MineSite\\BackEnd\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAC4AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-08T15:53:04.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "superUser.cs",
+              "DocumentMoniker": "C:\\Users\\dark_lord\\Desktop\\MineSite\\BackEnd\\models\\superUser.cs",
+              "RelativeDocumentMoniker": "models\\superUser.cs",
+              "ToolTip": "C:\\Users\\dark_lord\\Desktop\\MineSite\\BackEnd\\models\\superUser.cs",
+              "RelativeToolTip": "models\\superUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-08T15:45:01.95Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MineSiteBackend",
-              "DocumentMoniker": "C:\\Users\\dark_lord\\Desktop\\MineSite\\BackEnd\\MineSiteBackend.csproj",
-              "RelativeDocumentMoniker": "MineSiteBackend.csproj",
-              "ToolTip": "C:\\Users\\dark_lord\\Desktop\\MineSite\\BackEnd\\MineSiteBackend.csproj",
-              "RelativeToolTip": "MineSiteBackend.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-10-07T17:54:16.101Z",
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\dark_lord\\Desktop\\MineSite\\BackEnd\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\dark_lord\\Desktop\\MineSite\\BackEnd\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-08T15:42:30.941Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\dark_lord\\Desktop\\MineSite\\BackEnd\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\dark_lord\\Desktop\\MineSite\\BackEnd\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T18:24:07.784Z"
             }
           ]
         }
