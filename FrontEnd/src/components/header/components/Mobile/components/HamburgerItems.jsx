@@ -1,9 +1,9 @@
 import React from "react";
-
+import {HamburgerMenu_items}from '/constants/index.js'
 function HamburgerItems (props)  {
   return (
     <div className=" flex flex-col   justify-around  w-4/5 h-2/4">
-      {props.stateFromParrent.map((item) => {
+      {HamburgerMenu_items.map((item) => {
         return (
           <div className="flex  items-center  gap-3">
             <img

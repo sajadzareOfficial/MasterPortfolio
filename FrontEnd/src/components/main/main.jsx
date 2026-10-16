@@ -1,6 +1,7 @@
 import AboveTheFold from "./components/AboveTheFold";
 import CoreCapabilities from "./components/CoreCapabilities";
 import Languages from "./components/Languages";
+import Projects from "./components/Projects";
 
 export default function SiteMain() {
     return (
@@ -15,64 +16,9 @@ export default function SiteMain() {
                 <Languages Value="Asp.net" ImgSrc="dotnet-tile"/>
                 
             </div>
-            <CoreCapabilities Title="Frontend Architecture" circleColor="bg-linear1/40" >
-                <p class="text-lg text-white/60 w-4/5 ml-5 mb-2  inline light:text-black/70">
-                    Building complex SPAs with React, Next.js, and modern state management. Focusing on performance, accessibility, and SEO optimization.
-                </p>
-            </CoreCapabilities >
+            <CoreCapabilities />
                       
-            <div class="Projrcts   w-4/5 flex flex-col justify-center items-center">
-                <div id="Selected_Works" class="w-full h-auto selector mb-24"></div>
-                <div class="Projects-title w-4/5 h-[142px]   ">
-
-                    <div class="w-full  flex justify-center items-center">
-                        <p class="rounded-2xl  w-auto ring-2 ring-linear3 text-linear3 p-2">Selected Works</p>
-                    </div>
-                    <p class="text-4xl text-white font-bold mt-4">Featured <span
-                        class="bg-linear-to-t bg-clip-text text-transparent from-linear3 to-linear2">Projects</span>
-                    </p>
-                    <div class="btn mt-6  ring-2 ring-border rounded-2xl p-2 bg-border/30">
-                        <a class="flex items-center justify-center gap-3 " href="">
-                            <p class="text-white">View All Projects</p><img src="assets/svg/arow.svg"
-                                class="rotate-45 bg-amber-50   fill-amber-50" alt="" />
-                        </a>
-                    </div>
-                </div>
-                <div class="Projrcts-items mt-24 w-[328px] h-[1523px]
-                grid grid-cols-1 grid-rows-3 font-bold gap-8">
-                    <div
-                        class="project  rounded-2xl w-full h-auto ring-2 ring-white bg-project flex flex-col justify-around items-center">
-                        <img src="assets/photos/Image.png" alt="" class="w-full h-1/2 rounded-t-2xl " />
-                        <div class="Project-info w-4/5 h-1/2 rounded-b-2xl    gap-2 flex flex-col  justify-center">
-                            <p class="project-item__title text-white text-2xl ">Nova Financial</p>
-                            <p class="project-item__subTitle text-sm text-gray-400">Real-time cryptocurrency trading
-                                dashboard with live WebSocket feeds, advanced charting, and portfolio analytics.</p>
-                            <ul class="project-item__FrameWork w-full  flex items-center justify-start gap-1">
-                                <li class="FrameWork h-6 flex items-center  p-3 bg-white/5 rounded-2xl text-FrameWork">
-                                    React</li>
-                                <li class="FrameWork h-6 flex items-center  p-3 bg-white/5 rounded-2xl text-FrameWork">
-                                    D3.js</li>
-                                <li class="FrameWork h-6 flex items-center  p-3 bg-white/5 rounded-2xl text-FrameWork">
-                                    Supabase</li>
-                            </ul>
-                            <div
-                                class="project-item__source w-full border-t-2 border-white/5 flex mt-2 items-center justify-start gap-8">
-                                <a href="" class="flex mt-4  gap-1 items-center">
-                                    <img class="size-6" src="assets/svg/infinity-endless-svgrepo-com.svg" alt="" />
-                                    <p class="text-sm text-white">Live Demo</p>
-                                </a>
-                                <a href="" class="flex  mt-4 gap-1 items-center">
-                                    <img class="size-6" src="assets/svg/github-142-svgrepo-com.svg" alt="" />
-                                    <p class="text-sm text-white">Source</p>
-                                </a>
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
+            <Projects/>
             <div class="comment-container w-4/5 h-[1165px] flex flex-col justify-center items-center gap-14 ">
                 <div class="comment-Title w-full flex flex-col justify-center items-center">
                     <p class="px-2 py-0.5  text-[#8B5CF6] rounded-2xl ring">Testimonials</p>

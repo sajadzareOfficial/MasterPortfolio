@@ -17,4 +17,16 @@
     --color-FrameWork:#94A3B8;
     --color-subTitle:#94A3B8;
 }  
+@utility flex-center{
+    @apply flex items-center justify-center;
+}
+@utility flex-col-center{
+    @apply flex flex-col justify-center items-center;
+}
+@utility light_utility{
+    @apply bg-white/70 border-black/20 hover:text-black/700;
+}
 
+@utility linear-gradient{
+    @apply bg-linear-to-t bg-clip-text text-transparent from-linear1 from-0% via-linear2 via-50% to-linear3 to-100%;
+}

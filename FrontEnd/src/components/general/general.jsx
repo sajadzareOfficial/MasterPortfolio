@@ -17,7 +17,7 @@ export function Input() {
 
 export function Circle({ ...props }) {
   return (
-    <div className={`flex items-center justify-center  gap-1 ${props.className} `} >
+    <div className={`flex items-center justify-center  gap-3 ${props.className} `} >
       
       <img id="hamb_photo" className={`ml-8 rounded-full   ring-2 size-20 px-2   `} src={props.img_src} />
       <div className=" w-56 h-26  relative flex flex-col items-center justify-center  ">

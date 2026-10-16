@@ -4,38 +4,21 @@ import DesktopMenuButtons from "./components/Desktop/DesktopMenuButtons";
 import HamburgerMenu from "./components/Mobile/HamburgerMenu";
 import { Btn } from "../general/general";
 function Header (){
-  const [Header_Text_Items, setHeader_Text_Items] = useState([
-    "Home",
-    "work",
-    "About",
-    "Notes",
-  ]);
-  const [HamburgerMenu_items, setHamburgerMenu_items] = useState([
-    "Home",
-    "My_Post",
-    "Chat",
-    "Invite Friends",
-    "About us",
-    "Faq",
-  ]);
   return (
     <header
-      className={`w-4/5 h-14 fixed top-2  flex justify-between items-center border-2 border-white/10 light:border-black/20  rounded-4xl bg-dark light:bg-white/70 !z-50 `}
+      className={`w-4/5 h-14 fixed top-2  flex justify-between items-center border-2 border-white/10   rounded-4xl bg-dark  !z-50  light:light_utility `}
     >
-      <p className="font-header ml-5 font-bold text-3xl bg-linear-to-t bg-clip-text text-transparent from-linear1 from-0% via-linear2 via-50% to-linear3 to-100%">
+      <p className="font-header ml-5 font-bold text-3xl linear-gradient">
         Sj.Dev
       </p>
 
-      <DesktopMenuItems
-        for_largeScreen="true"
-        stateFromParrent={Header_Text_Items}
-      />
+      <DesktopMenuItems/>
 
       <DesktopMenuButtons changeSiteTheme={changeSiteTheme} />
-      {/* <h1 className="text-4xl text-white">{HamburgerMenu_items}</h1> */}
+      
       <HamburgerMenu
         changeSiteTheme={changeSiteTheme}
-        stateFromParrent={HamburgerMenu_items}
+        
       />
     </header>
   );
