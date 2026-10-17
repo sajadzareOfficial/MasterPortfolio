@@ -1,32 +1,44 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 @custom-variant light (&:where(.light, .light *));
-@theme{
-    --font-header: "Space Grotesk", Space-Grotesk;
-    --font-header2: "Geist", Geist-semiBold;
-    --color-dark:#020617;
-    --color-lightMode:#EDF7F6;
-    --color-light-blue:#51E2F5;
-    --color-light__text:#0000009c;
-    --color-light:#fff;
-    --color-secondary:#06b6d4;
-    --color-linear1:#06B6D4; 
-    --color-linear2:#8B5CF6; 
-    --color-linear3:#EC4899; 
-    --color-border:#1E293B;
-    --color-project:#0F172A;
-    --color-FrameWork:#94A3B8;
-    --color-subTitle:#94A3B8;
-}  
-@utility flex-center{
-    @apply flex items-center justify-center;
+@theme {
+  --font-header: "Space Grotesk", Space-Grotesk;
+  --font-header2: "Geist", Geist-semiBold;
+
+  --color-light-title: #000000;
+  --color-light-subtitle: #0000009c;
+
+  --color-dark-title: #ffffff;
+  --color-dark-subtitle: #ffffff9c;
+  --color-dark: #020617;
+  --color-lightMode: #edf7f6;
+  --color-light-blue: #51e2f5;
+  --color-light__text: #0000009c;
+  --color-light: #fff;
+  --color-secondary: #06b6d4;
+  --color-linear1: #06b6d4;
+  --color-linear2: #8b5cf6;
+  --color-linear3: #ec4899;
+  --color-border: #1e293b;
+  --color-project: #0f172a;
+  --color-FrameWork: #94a3b8;
+  --color-subTitle: #94a3b8;
 }
-@utility flex-col-center{
-    @apply flex flex-col justify-center items-center;
+@utility glassy-LightMode {
+  @apply bg-black/15 ring ring-black/10  **:text-black/80  backdrop-blur-[12px] backdrop-saturate-[100%] border border-white/30 rounded-[16px] shadow-[0_8px_32px_0_rgba(0,0,0,0.2)];
 }
-@utility light_utility{
-    @apply bg-white/70 border-black/20 hover:text-black/700;
+@utility glassy-DarkMode {
+  @apply bg-white/15 **:text-white/80  backdrop-blur-[12px] backdrop-saturate-[100%] border border-white/30 rounded-[16px] shadow-[0_8px_32px_0_rgba(0,0,0,0.2)];
+}
+@utility flex-center {
+  @apply flex items-center justify-center;
+}
+@utility flex-col-center {
+  @apply flex flex-col justify-center items-center;
+}
+@utility light_utility {
+  @apply bg-white/70 border-black/20 hover:text-black/700;
 }
 
-@utility linear-gradient{
-    @apply bg-linear-to-t bg-clip-text text-transparent from-linear1 from-0% via-linear2 via-50% to-linear3 to-100%;
+@utility linear-gradient {
+  @apply bg-linear-to-t bg-clip-text text-transparent from-linear1 from-0% via-linear2 via-50% to-linear3 to-100%;
 }

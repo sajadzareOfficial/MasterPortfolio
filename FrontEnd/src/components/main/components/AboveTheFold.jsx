@@ -3,16 +3,16 @@ import React from "react";
 function AboveTheFold() {
   return (
     <>
-      <div className="mt-8 w-72 h-9  bg-secondary/5 border-1 border-secondary/30 rounded-4xl flex items-center justify-around ">
+      <div className="mt-8 w-72 h-9  border-1 rounded-4xl flex-center glassy-DarkMode light:glassy-LightMode ring-1 justify-around ">
         <div className=" size-4 relative flex ">
           <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-secondary opacity-75"></span>
           <span className="relative inline-flex size-4 rounded-full bg-secondary  "></span>
-        </div>
-        <div className="text flex items-center h-5 text-secondary ">
-          Available for new projects
+          <p className="text flex items-center h-5 text-secondary ">
+            Available for new projects
+          </p>
         </div>
       </div>
-      <div className="hero w-84 h-24">
+      <div className="hero text-dark-title light:text-light-title   w-84 h-24">
         <p className="text-5xl text-white text-center mt-6 light:text-black/70">
           Designing the{" "}
           <span className="  bg-linear-to-t bg-clip-text text-transparent from-linear1 from-0% via-linear2 via-50% to-linear3 to-100%">
@@ -21,20 +21,20 @@ function AboveTheFold() {
           of Web.
         </p>
       </div>
-      <div className="sub-hero mt-10  w-4/5">
-        <p className="text-xl text-center text-light__text ">
+      <div className="sub-hero  text-dark-subtitle light:text-light-title  mt-10  w-4/5">
+        <p className="text-xl text-center ">
           I'm a creative developer tailored for the modern web. I build
           immersive, high-performance digital experiences that blend art with
           engineering.
         </p>
       </div>
-      <div className="btns mt-8 w-40 h-32 flex flex-col gap-4">
-        <div className="firstBtn  w-full h-1/2  bg-linear-to-b   from-linear1 from-0%  to-linear2 to-100%  rounded-4xl flex justify-center gap-2 items-center ">
+      <div className="btns mt-8 w-40 h-32 flex flex-col gap-4 ">
+        <div className="firstBtn  w-full h-1/2  bg-linear-to-b   from-linear1 from-0%  to-linear2 to-100%  rounded-4xl flex-center gap-2 ">
           <p className="text-[#082F49] font-bold">View My Work</p>
           <img className="size-5 " src="assets/svg/arow.svg" alt="" />
         </div>
-        <div className="secondBtn w-full h-1/2 bg-[#1E293B]/30 border border-border rounded-4xl  flex justify-center gap-2 items-center">
-          <p className="font-bold text-white light:text-black/70">Download CV</p>
+        <div className="secondBtn w-full h-1/2 glassy-DarkMode light:glassy-LightMode border border-border rounded-4xl  flex-center gap-2 ">
+          <p className="font-bold ">Download CV</p>
           <img src="assets/svg/folder.svg" alt="" />
         </div>
       </div>

@@ -6,9 +6,21 @@ const CoreCapabilities = (props) => {
       <AbilityTitle />
 
       {abilitys.map((abilityItem) => {
-        
         return (
-          <div class=" relative w-3/5 md:w-2/5 h-80 bg-white/5 light:bg-black/5 ring-2 ring-white/10 rounded-2xl backdrop-blur-md   flex flex-col overflow-hidden justify-around mt-8 ">
+          <div
+            class=" relative w-3/5 md:w-2/5 h-80 glassy-DarkMode light:glassy-LightMode  flex flex-col overflow-hidden justify-around mt-8 "
+            onPointerMove={(e) => {
+              const rect = e.currentTarget.getBoundingClientRect();
+              e.currentTarget.style.setProperty(
+                "--x",
+                `${e.clientX - rect.left}px`,
+              );
+              e.currentTarget.style.setProperty(
+                "--y",
+                `${e.clientY - rect.top}px`,
+              );
+            }}
+          >
             <div
               class={`circle-efect size-24 rounded-full blur-2xl ${abilityItem.circleColor}  absolute -right-8 -top-8`}
             />
@@ -17,21 +29,18 @@ const CoreCapabilities = (props) => {
               class="size-12 relative  left-5  "
               alt=""
             />
-            <p class="Ability-Front__Title ml-5 text-xl text-white light:text-black">
+            <p class="Ability-Front__Title ml-5 text-xl text-dark-title light:text-light-title">
               {abilityItem.Title}
             </p>
-            <p class="md:text-lg text-white/60 w-4/5 ml-5 mb-2  inline light:text-black/70">
+            <p class="md:text-lg  w-4/5 ml-5 mb-2  inline text-dark-subtitle light:text-light-subtitle">
               {abilityItem.Description}
             </p>
           </div>
         );
       })}
     </div>
-
   );
 };
-
-
 
 function AbilityTitle() {
   return (
