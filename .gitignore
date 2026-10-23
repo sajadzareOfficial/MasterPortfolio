@@ -1,5 +1,7 @@
 # Logs
-logs
+logs/
 *.log
+
+# Archives
 *.zip
 *.rar
