@@ -2,7 +2,7 @@ import AboveTheFold from "./components/AboveTheFold";
 import CoreCapabilities from "./components/CoreCapabilities";
 import Languages from "./components/Languages";
 import Projects from "./components/Projects";
-
+import Comments from "./components/Comments";
 export default function SiteMain() {
     return (
         <main class="flex mt-10  flex-col items-center justify-center relative  ">
@@ -19,31 +19,7 @@ export default function SiteMain() {
             <CoreCapabilities />
                       
             <Projects/>
-            <div class="comment-container w-4/5 h-[1165px] flex flex-col justify-center items-center gap-14 ">
-                <div class="comment-Title w-full flex flex-col justify-center items-center">
-                    <p class="px-2 py-0.5  text-[#8B5CF6] rounded-2xl ring">Testimonials</p>
-                    <p class="text-white font-bold  text-4xl mt-3 ">What <span
-                        class="bg-linear-to-b bg-clip-text text-transparent from-linear2 to-linear3">Clients
-                        Say</span></p>
-                </div>
-                <div class="comment-Boxs h-11/12   grid  justify-items-center   grid-cols-1 grid-rows-3 gap-6">
-                    <div
-                        class="comment text-xl w-80 bg-white/5 rounded-2xl ring-2 ring-white/10 flex flex-col items-center justify-center gap-4 ">
-                        <img class="w-4/5" src="assets/svg/stars.svg" alt="" />
-                        <p class="comment__text text-subTitle  w-4/5 ">
-                            "Alex transformed our vision into reality with exceptional attention to detail. The
-                            dashboard he built is not only beautiful but incredibly performant."
-                        </p>
-                        <div class="comment__person flex items-center w-4/5 gap-3">
-
-                            <div class="circle size-8 rounded-full bg-red-400 "></div>
-                            <p class="PersonName w-4/5 text-xl text-white">Sarah Johnson<span
-                                class="block text-subTitle text-sm">CEO, TechFlow</span></p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
+            <Comments/>
             <div class="experience-container w-4/5 h-[1637px]   mt-24 flex flex-col items-center gap-16">
                 <div class="experience-Title w-full h-1/6 flex flex-col justify-center items-center">
                     <p class="px-3 py-0.5  text-[#06B6D4] rounded-2xl ring ">Experience</p>

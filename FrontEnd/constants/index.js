@@ -11,6 +11,12 @@ export const HamburgerMenu_items = [
     "About us",
     
 ];
+
+export const HeroSectionItems = {
+    blueAlert:"Available for new projects",
+    heroTitle:"Designing the  Web"
+    
+}
 export const Core_Capabilities=[
     {
         
@@ -42,4 +48,16 @@ export const projrct_section =[
         Description:"Real-time cryptocurrency trading dashboard with live WebSocket feeds, advanced charting, and portfolio analytics.",
         Technologies:["React","D3.js","Supabase"]
     }
+]
+export const UserComment =[
+    {
+        id:1,
+        starsRate:4.5,
+        imgSrc:"../assets/photos/ChatGPT Image Sep 25, 2025, 01_47_48 PM.png",
+        authorName:"Sarah Johnson",
+        Specializations:"CEO, TechFlow",
+        Description:`"Alex transformed our vision into reality with exceptional attention to detail. The dashboard he built is not only beautiful but incredibly performant."`
+    },
+    
+
 ]

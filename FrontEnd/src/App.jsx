@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { BrowserRouter, Route } from "react-router-dom";
-import { App as AppRouter } from "./router/router";
+import { CostomeRouter as AppRouter } from "./router/router.jsx";
 import Lenis from "lenis";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
