@@ -7,7 +7,7 @@ function AboveTheFold() {
       <BlueAlert/>
 
       <div className="hero text-dark-title light:text-light-title   w-84 h-24">
-        <p className="text-5xl text-white text-center mt-6 light:text-black/70">
+        <p className="text-5xl text-white text-center light:text-black/70">
           Designing the{" "}
           <span className="  bg-linear-to-t bg-clip-text text-transparent from-linear1 from-0% via-linear2 via-50% to-linear3 to-100%">
             Future 
@@ -86,7 +86,7 @@ function AboveTheFold() {
 }
 function BlueAlert (){
   return(
-    <div className=" w-70 h-10 mt-20 flex-center justify-around  relative py-2 px-3 rounded-4xl bg-secondary/5 ring-1 ring-secondary/50  bg-red-500 relative  ">
+    <div className=" w-70 h-10 mt-10 flex-center justify-around  relative py-2 px-3 rounded-4xl bg-secondary/5 ring-1 ring-secondary/50  bg-red-500 relative  ">
         <div class=" size-4 relative flex ">
           <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-secondary opacity-75"></span>
           <span class="relative inline-flex size-4 rounded-full bg-secondary  "></span>

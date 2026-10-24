@@ -3,9 +3,11 @@ import CoreCapabilities from "./components/CoreCapabilities";
 import Languages from "./components/Languages";
 import Projects from "./components/Projects";
 import Comments from "./components/Comments";
+import Experience from "./components/Experience";
+import Contact from "./components/Contact";
 export default function SiteMain() {
     return (
-        <main class="flex mt-10  flex-col items-center justify-center relative  ">
+        <main class="flex-col-center mt-10 relative  gap-10 ">
             <AboveTheFold/>
             <div class="languagePrograming-Box light:**:text-light__text light:bg-light-blue/40 md:w-full overflow-hidden h-auto bg-white/20  opacity-70 hover:opacity-100 transition-opacity
             grid md:grid-cols-1 grid-cols-2  p-5 content-around  gap-y-3   grid-rows-1     w-full
@@ -20,102 +22,8 @@ export default function SiteMain() {
                       
             <Projects/>
             <Comments/>
-            <div class="experience-container w-4/5 h-[1637px]   mt-24 flex flex-col items-center gap-16">
-                <div class="experience-Title w-full h-1/6 flex flex-col justify-center items-center">
-                    <p class="px-3 py-0.5  text-[#06B6D4] rounded-2xl ring ">Experience</p>
-                    <p class="text-white font-bold  text-4xl mt-3 ">Professional <span
-                        class="bg-linear-to-b bg-clip-text text-transparent from-linear1 to-linear2 block text-center">Journey</span>
-                    </p>
-                    <p class="text-xl text-subTitle text-center w-4/5 mt-4">Building products that matter at innovative
-                        companies.</p>
-                </div>
-                <div class="experience-Grids w-full h-4/5 grid grid-cols-1 grid-rows-3 justify-items-center  ">
-
-                    <div
-                        class="experience text-xl w-80 bg-white/5 rounded-2xl ring-2 ring-white/10 flex flex-col items-center justify-center gap-6 ">
-                        <div class="w-4/5 flex flex-col gap-2">
-                            <p class="text-white text-2xl">Senior Frontend Engineer</p>
-                            <p class="text-subTitle text-lg">TechCorp Inc.</p>
-                            <p class="text-subTitle text-sm">2022 - Present</p>
-                        </div>
-                        <p class="experience__text text-base text-subTitle  w-4/5 ">
-                            Leading frontend architecture for a suite of SaaS products serving 100K+ users. Implemented
-                            design system, optimized performance by 60%, and mentored junior developers.
-                        </p>
-                        <ul class="project-item__FrameWork w-4/5  flex items-center justify-start gap-2 text-white">
-                            <li
-                                class="FrameWork text-xs font-bold  flex items-center  px-4 py-2 bg-white/5 rounded-2xl ">
-                                React
-                            </li>
-                            <li
-                                class="FrameWork text-xs font-bold  flex items-center  px-4 py-2 bg-white/5 rounded-2xl ">
-                                D3.js
-                            </li>
-                            <li
-                                class="FrameWork text-xs font-bold  flex items-center  px-4 py-2 bg-white/5 rounded-2xl ">
-                                Supabase</li>
-                        </ul>
-                    </div>
-
-                </div>
-            </div>
-            <div
-                class="Aboutme-section w-full h-[776px] flex flex-col items-center justify-center gap-12 bg-linear-to-b from-linear1/0 to-linear1/10 ">
-                <div class="Aboutme-Title w-4/5 font-bold">
-                    <p class="text-4xl  text-white text-center">Let's Build Something</p>
-                    <p
-                        class="bg-linear-to-b  text-center text-4xl bg-clip-text text-transparent from-linear1 from-0% via-linear2 via-45% to-linear3 to-100%">
-                        Amazing</p>
-                    <p class="text-lg font-normal text-subTitle text-center mt-6">Have a project in mind? I'm currently
-                        available for freelance work and full-time opportunities. Let's discuss how we can work
-                        together.</p>
-                </div>
-                <div class="Aboutme-Btns flex flex-col justify-center items-center gap-4">
-                    <div
-                        class="Aboutme-Btn w-37 h-14 rounded-full flex items-center justify-center gap-1.5 font-bold bg-linear-to-b from-linear1 to-linear2">
-                        <img class="size-5" src="assets/svg/letter-svgrepo-com.svg" alt="" />
-                        <p class="text-[#082F49] text-base"> Get In Touch</p>
-                    </div>
-                    <div
-                        class="Aboutme-Btn w-44 bg-border/30 ring ring-border h-14 rounded-full flex items-center justify-center gap-2 font-bold">
-                        <img class="size-5" src="assets/svg/date.svg" alt="" />
-                        <p class="text-white text-base"> Schedule a Call</p>
-                    </div>
-
-                </div>
-                <div
-                    class="Aboutme-link-grid w-full h-28 text-base  grid grid-cols-2 grid-rows-2 gap-2 justify-items-center ">
-                    <div class="Github ml-16 flex items-center justify-center gap-1.5">
-                        <div
-                            class="size-10 rounded-full bg-white/5 ring ring-white/10 flex items-center justify-center">
-                            <img class="size-5" src="assets/svg/github-142-svgrepo-com.svg" alt="" />
-                        </div>
-                        <p class=" text-subTitle font-bold">GitHub</p>
-                    </div>
-                    <div class="Linkedin flex items-center justify-center gap-1.5 ml-2 ">
-                        <div
-                            class="size-10 rounded-full bg-white/5 ring ring-white/10 flex items-center justify-center">
-                            <img class="size-5" src="assets/svg/linkedin-svgrepo-com.svg" alt="" />
-                        </div>
-                        <p class="text-subTitle font-bold">LinkedIn</p>
-                    </div>
-                    <div class="Instagram ml-24 flex items-center justify-center gap-1.5">
-                        <div
-                            class="size-10 rounded-full bg-white/5 ring ring-white/10 flex items-center justify-center">
-                            <img class="size-5" src="assets/svg/instagram-1-svgrepo-com.svg" alt="" />
-                        </div>
-                        <p class="text-subTitle font-bold">Instagram</p>
-                    </div>
-                    <div class="Email flex items-center justify-center gap-1.5">
-                        <div
-                            class="size-10 rounded-full bg-white/5 ring ring-white/10 flex items-center justify-center">
-                            <img class="size-5" src="assets/svg/letter-svgrepo-com.svg" alt="" />
-                        </div>
-                        <p class="text-subTitle font-bold">Email</p>
-                    </div>
-                </div>
-
-            </div>
+            <Experience/>
+           <Contact/>
         </main>
     )
 }

@@ -78,7 +78,7 @@ m-18"
 
 function Static_ProjectPart() {
   return (
-    <div class="Projects-title w-4/5 h-[142px] mt-24  ">
+    <div class="Projects-title w-4/5 h-[142px] ">
       <div class="w-full  flex-center">
         <p class="rounded-2xl  w-auto ring-2 ring-linear3 text-linear3 p-2">
           Selected Works

@@ -37,7 +37,7 @@ function HeaderComment() {
     <>
       <div class="comment-Title w-full flex-col-center">
         <p class="px-2 py-0.5  text-[#8B5CF6] rounded-2xl ring">Testimonials</p>
-        <p class="text-white font-bold  text-4xl mt-3 ">
+        <p class="text-white font-bold  text-4xl  ">
           What{" "}
           <span class="bg-linear-to-b bg-clip-text text-transparent from-linear2 to-linear3">
             Clients Say

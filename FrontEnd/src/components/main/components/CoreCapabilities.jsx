@@ -44,7 +44,7 @@ const CoreCapabilities = (props) => {
 
 function AbilityTitle() {
   return (
-    <div class="Ability-Info mt-24 mb-16 flex-col-center gap-4">
+    <div class="Ability-Info  mb-16 flex-col-center gap-4">
       <p class="Text  text-white text-3xl light:text-black">
         Core <span class="text-linear1">Capabilities</span>
       </p>
