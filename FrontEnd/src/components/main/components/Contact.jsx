@@ -1,18 +1,19 @@
 import React from "react";
 import { Contact as contactElems } from "/constants/index.js";
 const Contact = () => {
+ 
   return (
-    <div className=" mt-10 flex-col-center gap-15">
+    <div className=" mt-10 Aboutme-section w-full flex-col-center gap-12 bg-linear-to-b from-linear1/0 to-linear1/10 light:from-linear2/8 light:to-linear1/18">
       <StaticContactItems />
-      <ul class="Aboutme-link-grid w-full h-28 text-base  grid grid-cols-2 grid-rows-2 gap-2 justify-items-center ">
-        {contactElems.map((element) => {
-          return;
-          <li class="Github ml-16 flex-center gap-1.5">
-            <div class="size-10 rounded-full bg-white/5 ring ring-white/10 flex-center">
-              <img class="size-6 " src={`sss`} alt="" />
+      <ul class="Aboutme-link-grid w-full h-28 text-base mb-5  grid grid-cols-2 grid-rows-2 gap-2 justify-items-center ">
+        {contactElems[0].Messaging_Apps.map((element) => {
+          return(
+          <li  key={element.id} class="Github ml-16 flex-center gap-3">
+            <div class="size-10 rounded-full glassy-DarkMode light:glassy-LightMode flex-center">
+              <img class="size-6 " src={`${element.imgSrc}`} alt={`${element.Title}-img`} />
             </div>
-            <p class=" text-subTitle font-bold">GitHub</p>
-          </li>;
+            <a href={`${element.Href}`} class=" text-subTitle font-bold">{element.Title}</a>
+          </li>)
         })}
       </ul>
     </div>
@@ -22,9 +23,9 @@ const Contact = () => {
 function StaticContactItems() {
   const items = contactElems[0];
   return (
-    <>
-      <div class="Aboutme-Title w-4/5 font-bold">
-        <p class="text-4xl  text-white text-center">{items.Title}</p>
+   <>
+      <div class="Aboutme-Title mt-10 w-4/5 font-bold">
+        <p class="text-4xl  text-white light:text-black/80 text-center">{items.Title}</p>
         <p class="bg-linear-to-b h-12   text-center text-4xl bg-clip-text text-transparent from-linear1 from-0% via-linear2 via-45% to-linear3 to-100%">
           {items.ColorofullWord}
         </p>
@@ -45,7 +46,7 @@ function StaticContactItems() {
           <p class="text-white text-base"> Schedule a Call</p>
         </li>
       </ul>
-    </>
+   </>
   );
 }
 export default Contact;
