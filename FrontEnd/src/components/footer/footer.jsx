@@ -17,7 +17,7 @@ export default function SiteFooter(){
 
 
                         <button class="size-9 bg-linear1 flex items-center justify-center rounded-full"
-                            type="submit"><img class="rotate-45" src="assets/svg/arow.svg" alt=""/></button>
+                            type="submit"><img class="rotate-45" src="./src/assets/svg/arow.svg" alt=""/></button>
                     </form>
 
                 </div>

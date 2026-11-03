@@ -35,14 +35,14 @@ function StaticContactItems() {
       </div>
       <ul class="Aboutme-Btns flex-col-center gap-4">
         <li class="Aboutme-Btn w-37 h-14 rounded-full flex-center gap-1.5 font-bold bg-linear-to-b from-linear1 to-linear2">
-          <img class="size-5" src="assets/svg/letter-svgrepo-com.svg" alt="" />
+          <img class="size-5" src="./src/assets/svg/letter-svgrepo-com.svg" alt="" />
           <p class="text-[#082F49] text-base"> Get In Touch</p>
         </li>
         <li
           class="Aboutme-Btn w-44 bg-border/30 ring ring-border h-14 rounded-full flex-center
          gap-2 font-bold"
         >
-          <img class="size-5" src="assets/svg/date.svg" alt="" />
+          <img class="size-5" src="./src/assets/svg/date.svg" alt="" />
           <p class="text-white text-base"> Schedule a Call</p>
         </li>
       </ul>

@@ -94,7 +94,7 @@ function Static_ProjectPart() {
         <a class="flex items-center justify-center gap-3 " href="">
           <p class="text-white">View All Projects</p>
           <img
-            src="assets/svg/arow.svg"
+            src="./src/assets/svg/arow.svg"
             class="rotate-45 bg-amber-50   fill-amber-50"
             alt=""
           />

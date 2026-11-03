@@ -58,7 +58,7 @@ const StarRating = ({ rating }) => {
         <img
           key={`full-${i}`}
           className="m-0 size-7 p-0"
-          src="assets/svg/main/compleateStar.svg"
+          src="./src/assets/svg/main/compleateStar.svg"
           alt="Full star"
         />
       ))}
@@ -66,7 +66,7 @@ const StarRating = ({ rating }) => {
       {hasHalfStar && (
         <img
           className="m-0 size-7 p-0"
-          src="assets/svg/main/halfStar.svg"
+          src="./src/assets/svg/main/halfStar.svg"
           alt="Half star"
         />
       )}
@@ -76,7 +76,7 @@ const StarRating = ({ rating }) => {
         <img
           key={`full-${i}`}
           className="m-0 size-7 p-0"
-          src="assets/svg/main/EmptyStars.svg "
+          src="./src/assets/svg/main/EmptyStars.svg "
           alt="Full star"
         />
       ))}

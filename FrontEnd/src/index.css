@@ -42,3 +42,7 @@
 @utility linear-gradient {
   @apply bg-linear-to-t bg-clip-text text-transparent from-linear1 from-0% via-linear2 via-50% to-linear3 to-100%;
 }
+
+@utility homePageTitle {
+  @apply bg-linear-to-t bg-clip-text text-transparent from-linear1 from-0% via-linear2 via-50% to-linear3 to-100%;
+}

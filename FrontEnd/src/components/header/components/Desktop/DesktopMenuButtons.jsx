@@ -4,7 +4,7 @@ function DesktopMenuButtons(props) {
       <div className="nav-btns hidden   relative  z-50 md:flex-center md:mr-4 w-32 h-10 gap-3">
         <img
           className="rounded-full ring-2  ring-white p-1  transition-transform hover:rotate-90 light:ring-black/50  "
-          src="assets/svg/sun-svgrepo-com (11).svg"
+          src="./src/assets/svg/sun-svgrepo-com (11).svg"
           alt=""
           onClick={(event) => {
             document.documentElement.classList.toggle("light");
